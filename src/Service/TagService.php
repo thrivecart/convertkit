@@ -27,4 +27,10 @@ class TagService extends AbstractService {
 
 	}
 
+	public function subscriptions($tag_id, $data) {
+		$path = 'tags/' . $tag_id . '/subscriptions';
+
+		return $this->client->request( $path, 'get', $data );
+	}
+
 }
