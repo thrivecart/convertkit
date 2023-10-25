@@ -1,5 +1,5 @@
 {
-    "name": "awesomemotive/convertkit",
+    "name": "tcdev/convertkit",
     "description": "An API wrapper for ConvertKit",
     "require": {
         "php": ">=5.3.3",
